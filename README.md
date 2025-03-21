@@ -1,4 +1,4 @@
-# ArtronShop_RX8130CE
+# สุพงศ์ เฉลิมชัยนุวงศ์ 
 
 Arduino library of RX8130CE Real-Time Clock/calendar with 4 byte RAM
 
