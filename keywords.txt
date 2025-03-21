@@ -1,0 +1,73 @@
+#######################################
+# Syntax Coloring Map For PT7C4339.h เบสท์เองน่ะครับ
+#######################################
+ 
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+PT7C4339                 KEYWORD1
+
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+enableOscillator         KEYWORD2
+defaultTrickleCharger    KEYWORD2
+setClkout                KEYWORD2
+clearAllAlarm            KEYWORD2
+clearAlarmFlags          KEYWORD2
+checkAlarm1Status        KEYWORD2
+checkAlarm2Status        KEYWORD2
+enableAlarmInterruptSqw  KEYWORD2
+clearControlReg          KEYWORD2
+set24hrMode              KEYWORD2
+set12hrMode              KEYWORD2
+setAlarm1_24_12          KEYWORD2
+setAlarm2_24_12          KEYWORD2
+setAlarm1                KEYWORD2
+setAlarm2                KEYWORD2
+getSecond	         KEYWORD2
+getMinute	         KEYWORD2
+getHour	                 KEYWORD2
+get12_24hr	         KEYWORD2
+getAM_PM	         KEYWORD2
+getYear	                 KEYWORD2
+getMonth                 KEYWORD2
+getDate                  KEYWORD2
+getDayOfWeek             KEYWORD2
+checkOsfStatus           KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+FREQ32768kHZ             LITERAL1
+FREQ8192kHZ              LITERAL1
+FREQ4096kHZ              LITERAL1
+FREQ1HZ                  LITERAL1
+HR24                     LITERAL1
+HR12                     LITERAL1
+sysTimeAM                LITERAL1
+sysTimePM                LITERAL1
+
+Sunday                   LITERAL1
+Monday                   LITERAL1
+Tuesday                  LITERAL1
+Wednesday                LITERAL1
+Thursday                 LITERAL1
+Friday                   LITERAL1
+Saturday                 LITERAL1
+
+January                  LITERAL1
+February                 LITERAL1
+March                    LITERAL1
+April                    LITERAL1
+May                      LITERAL1
+June                     LITERAL1
+July                     LITERAL1
+August                   LITERAL1
+September                LITERAL1
+October                  LITERAL1
+November                 LITERAL1
+December                 LITERAL1
