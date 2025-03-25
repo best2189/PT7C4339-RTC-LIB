@@ -1,7 +1,11 @@
 # สุพงศ์ เฉลิมชัยนุวงศ์ 
 
-Arduino library of RX8130CE Real-Time Clock/calendar with 4 byte RAM
+Arduino library of PT7C4339 Real-Time Clock/calendar
 
+   พัฒนาโดย นาย สุพงศ์ เฉลิมชัยนุวงศ์ 
+   วันที่ 20 มีนาคม 2568
+   โดเนทเพื่อขวัญกำลังใจได้ที่ ธนาคารกสิกร 0718251311 
+   
 ## Examples
 
 initinitialize 
