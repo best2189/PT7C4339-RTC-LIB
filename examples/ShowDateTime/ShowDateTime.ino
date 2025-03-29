@@ -7,9 +7,9 @@ void setup(void)
 {
     Serial.begin(9600);
     Best_rtc.begin();
-	Best_rtc.clearAllAlarm();
-	Best_rtc.clearAlarmFlags();
-	Best_rtc.enableOscillator();
+    Best_rtc.clearAllAlarm();
+    Best_rtc.clearAlarmFlags();
+    Best_rtc.enableOscillator();
 }
 
 void loop(void) 
