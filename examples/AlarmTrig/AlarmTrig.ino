@@ -7,9 +7,9 @@ void setup(void)
 {
   Serial.begin(9600);
   Best_rtc.begin();
-	Best_rtc.clearAllAlarm();
+  Best_rtc.clearAllAlarm();
   Best_rtc.defaultTrickleCharger(0x00);
-	Best_rtc.enableOscillator();
+  Best_rtc.enableOscillator();
 
 /* 
   Best_rtc.setAlarm1_24_12(21,14,10,55,0,true,false);  // Day 21, 14:10:55 No mask, 24-hour mode
