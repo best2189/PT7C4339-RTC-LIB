@@ -7,9 +7,9 @@ void setup(void)
 {
   Serial.begin(9600);
   Best_rtc.begin();
-	Best_rtc.clearAllAlarm();
-	Best_rtc.clearAlarmFlags();
-	Best_rtc.enableOscillator();
+  Best_rtc.clearAllAlarm();
+  Best_rtc.clearAlarmFlags();
+  Best_rtc.enableOscillator();
   //วันศุกร์ ที่ 21 มีนาคม 2025 เวลา 14:10:10 ระบบเวลา 24 ชั่วโมง 
   Best_rtc.set24hrMode(Friday,21,March,2025,14,10,10);
   //วันศุกร์ ที่ 21 มีนาคม 2025 เวลา 11:59:55   AM ระบบเวลา 12 ชั่วโมง 
