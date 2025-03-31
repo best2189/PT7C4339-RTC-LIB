@@ -30,14 +30,14 @@ Arduino library for PT7C4339 I2C Real-Time Clock module with bilingual documenta
 #include <Wire.h>
 #include "PT7C4339.h"
 
-PT7C4339 rtc;
+PT7C4339 Best;
 
 void setup() {
   Serial.begin(9600);
-  rtc.begin();
-  rtc.set24hrMode(1, 1, 1, 2024, 12, 0, 0); // Set to 2024-01-01 12:00:00
+  Best.begin();
+  Best.set24hrMode(1, 1, 1, 2024, 12, 0, 0); // Set to 2024-01-01 12:00:00
 }
 
 void loop() {
-  Serial.println(rtc.readDateTime());
+  Serial.println(Best.readDateTime());
   delay(1000);
