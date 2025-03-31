@@ -35,9 +35,13 @@ PT7C4339 Best;
 void setup() {
   Serial.begin(9600);
   Best.begin();
+  Best.clearAllAlarm();
+  Best.clearAlarmFlags();
+  Best.enableOscillator();
   Best.set24hrMode(1, 1, 1, 2024, 12, 0, 0); // Set to 2024-01-01 12:00:00
 }
 
 void loop() {
   Serial.println(Best.readDateTime());
   delay(1000);
+}
