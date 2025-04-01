@@ -14,17 +14,14 @@ c load สามารถใช้ในช่วง 2 pf ถึง 12 pf
 
 
 <br>
-
+การต่อใช้งานกับบอร์ดต่างๆ 
 |บอร์ดที่ใช้งาน  |SDA    |SCL          |SQW/INT |                          
 |------------|-------|-------------|---------------|
-| mp3        | y     | y           | y             |                         
-| aac        | n     | y           | y             |                          
-| aacp       | n     | y (mono)    | y (+SBR, +PS) |                          
-| wav        | y     | y           | y             |            
-| flac       | n     | y           | y             |
-| vorbis     | n     | y           | y             |
-| m4a        | n     | y           | y             | 
-| opus       | n     | y           | y             |
+|Arduino uno        | y     | y           | y             |                         
+|ArduinoMega2560        | n     | y           | y             |                          
+|Esp8266       | n     | y (mono)    | y (+SBR, +PS) |                          
+|Esp32        | y     | y           | y             |            
+
    
 <br>
 
