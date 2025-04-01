@@ -15,16 +15,16 @@ c load สามารถใช้ในช่วง 2 pf ถึง 12 pf
 
 <br>
 
-|ขาที่ใช้งาน       |SDA  |SCL  |SQW/INT |                          |
-|------------|-------|-------------|---------------|--------------------------|
-| mp3        | y     | y           | y             |                          |
-| aac        | n     | y           | y             |                          |
-| aacp       | n     | y (mono)    | y (+SBR, +PS) |                          |
-| wav        | y     | y           | y             |                          |
-| flac       | n     | y           | y             |blocksize max 24576 bytes |
-| vorbis     | n     | y           | y             | <=196Kbit/s              |
-| m4a        | n     | y           | y             |                          |
-| opus       | n     | y           | y             |celt only                 |
+|บอร์ดที่ใช้งาน  |SDA    |SCL          |SQW/INT |                          |
+|------------|-------|-------------|---------------|
+| mp3        | y     | y           | y             |                         
+| aac        | n     | y           | y             |                          
+| aacp       | n     | y (mono)    | y (+SBR, +PS) |                          
+| wav        | y     | y           | y             |            
+| flac       | n     | y           | y             |
+| vorbis     | n     | y           | y             |
+| m4a        | n     | y           | y             | 
+| opus       | n     | y           | y             |
    
 <br>
 
