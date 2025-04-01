@@ -21,7 +21,7 @@ c load สามารถใช้ในช่วง 2 pf ถึง 12 pf
 |บอร์ดที่ใช้งาน            |SDA    |SCL          |SQW/INT        |                          
 |-----------------------|-------|-------------|---------------|
 |Arduino uno            |  A4   |    A5       |     2,3         |                         
-|ArduinoMega2560        |      |           |            |                          
+|ArduinoMega2560        |   20   |    21       |    2, 3, 18, 19,         |                          
 |Esp8266                |   D2   | D1    |  All GPIO pins |                          
 |Esp32                  |   21  |    22       | All GPIO pins          |            
 <br>
@@ -51,7 +51,8 @@ void setup() {
   Best.clearAllAlarm();
   Best.clearAlarmFlags();
   Best.enableOscillator();
-  Best.set24hrMode(1, 1, 1, 2024, 12, 0, 0); // Set to 2024-01-01 12:00:00
+  //วันศุกร์ ที่ 21 มีนาคม 2025 เวลา 14:10:10 ระบบเวลา 24 ชั่วโมง 
+  Best_rtc.set24hrMode(Friday,21,March,2025,14,10,10);
   Best_rtc.defaultTrickleCharger(0x00);
 }
 
