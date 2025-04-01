@@ -16,6 +16,7 @@ Arduino library for PT7C4339 I2C Real-Time Clock module  documentation (English/
 
 ## การต่อวงจร ครับผม 
 ![PT7C4339 RTC Module](https://github.com/best2189/PT7C4339-RTC-LIB/blob/1c416ceee9e9cccdf085514ce6fc06321af73a87/75736.jpg)  
+c load สามารถใช้ในช่วง 2 pf ถึง 12 pf 
 
 ## ฟังก์ชั่นการใช้งานหลักๆ (Features)
 - สนับสนุนทั้งโหมด 12/24 ชั่วโมง (12/24 hour mode support)
