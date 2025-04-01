@@ -1,18 +1,16 @@
 
 
-Arduino library of PT7C4339 Real-Time Clock/calendar
+## Arduino library of PT7C4339 Real-Time Clock/calendar
 
-   พัฒนาโดย นาย สุพงศ์ เฉลิมชัยนุวงศ์ 
-   วันที่ 20 มีนาคม 2568
-   โดเนทเพื่อขวัญกำลังใจได้ที่ ธนาคารกสิกร 0718251311 
+##   พัฒนาโดย นาย สุพงศ์ เฉลิมชัยนุวงศ์ 
+##   วันที่ 20 มีนาคม 2568
+ ##  โดเนทเพื่อขวัญกำลังใจได้ที่ ธนาคารกสิกร 0718251311 
    
-## Examples
-
 
 # PT7C4339 Real-Time Clock Library
 
-
-Arduino library for PT7C4339 I2C Real-Time Clock module  documentation (English/Thai).
+## Examples
+## Arduino library for PT7C4339 I2C Real-Time Clock module  documentation (English/Thai).
 
 ## การต่อวงจร ครับผม 
 ![PT7C4339 RTC Module](https://github.com/best2189/PT7C4339-RTC-LIB/blob/1c416ceee9e9cccdf085514ce6fc06321af73a87/75736.jpg)  
