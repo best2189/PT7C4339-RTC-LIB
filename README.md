@@ -12,9 +12,10 @@
 ![PT7C4339 RTC Module](https://github.com/best2189/PT7C4339-RTC-LIB/blob/1c416ceee9e9cccdf085514ce6fc06321af73a87/75736.jpg)  
 c load สามารถใช้ในช่วง 2 pf ถึง 12 pf 
 
+
 <br>
 
-|Codec       |ESP32  |ESP32 PSRAM  |ESP32-S3 PSRAM |                          |
+|ขาที่ใช้งาน       |SDA  |SCL  |SQW/INT |                          |
 |------------|-------|-------------|---------------|--------------------------|
 | mp3        | y     | y           | y             |                          |
 | aac        | n     | y           | y             |                          |
