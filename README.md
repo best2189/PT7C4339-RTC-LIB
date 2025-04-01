@@ -43,6 +43,7 @@ void setup() {
   Best.clearAlarmFlags();
   Best.enableOscillator();
   Best.set24hrMode(1, 1, 1, 2024, 12, 0, 0); // Set to 2024-01-01 12:00:00
+  Best_rtc.defaultTrickleCharger(0x00);
 }
 
 void loop() {
