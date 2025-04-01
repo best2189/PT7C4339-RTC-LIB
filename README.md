@@ -11,6 +11,7 @@
 ## การต่อวงจร ครับผม 
 
 c load สามารถใช้ในช่วง 2 pf ถึง 12 pf 
+<br>
 ![PT7C4339 RTC Module](https://github.com/best2189/PT7C4339-RTC-LIB/blob/1c416ceee9e9cccdf085514ce6fc06321af73a87/75736.jpg)  
 
 
@@ -21,8 +22,8 @@ c load สามารถใช้ในช่วง 2 pf ถึง 12 pf
 |-----------------------|-------|-------------|---------------|
 |Arduino uno            |  A4   |    A5       |     2,3         |                         
 |ArduinoMega2560        |      |           |            |                          
-|Esp8266                |      |     |  |                          
-|Esp32                  |     |            |            |            
+|Esp8266                |   D2   | D1    |  All GPIO pins |                          
+|Esp32                  |   21  |    22       | All GPIO pins          |            
 <br>
 
 
