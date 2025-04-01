@@ -9,19 +9,20 @@
 
 ## Examples
 ## การต่อวงจร ครับผม 
-![PT7C4339 RTC Module](https://github.com/best2189/PT7C4339-RTC-LIB/blob/1c416ceee9e9cccdf085514ce6fc06321af73a87/75736.jpg)  
+
 c load สามารถใช้ในช่วง 2 pf ถึง 12 pf 
+![PT7C4339 RTC Module](https://github.com/best2189/PT7C4339-RTC-LIB/blob/1c416ceee9e9cccdf085514ce6fc06321af73a87/75736.jpg)  
+
+
 
 การต่อใช้งานกับบอร์ดต่างๆ 
 <br>
-
-|บอร์ดที่ใช้งาน  |SDA    |SCL          |SQW/INT |                          
-|------------|-------|-------------|---------------|
-|Arduino uno        | y     | y           | y             |                         
-|ArduinoMega2560        | n     | y           | y             |                          
-|Esp8266       | n     | y (mono)    | y (+SBR, +PS) |                          
-|Esp32        | y     | y           | y             |            
-
+|บอร์ดที่ใช้งาน            |SDA    |SCL          |SQW/INT        |                          
+|-----------------------|-------|-------------|---------------|
+|Arduino uno            |  A4   |    A5       |     2,3         |                         
+|ArduinoMega2560        |      |           |            |                          
+|Esp8266                |      |     |  |                          
+|Esp32                  |     |            |            |            
 <br>
 
 
