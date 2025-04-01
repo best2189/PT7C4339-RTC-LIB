@@ -21,7 +21,7 @@ c load สามารถใช้ในช่วง 2 pf ถึง 12 pf
 |บอร์ดที่ใช้งาน            |SDA    |SCL          |SQW/INT        |                          
 |-----------------------|-------|-------------|---------------|
 |Arduino uno            |  A4   |    A5       |     2,3         |                         
-|ArduinoMega2560        |   20   |    21       |    2, 3, 18, 19,         |                          
+|ArduinoMega2560        |   20   |    21       |    2, 3, 18, 19       |                          
 |Esp8266                |   D2   | D1    |  All GPIO pins |                          
 |Esp32                  |   21  |    22       | All GPIO pins          |            
 <br>
