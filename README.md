@@ -43,20 +43,20 @@ c load สามารถใช้ในช่วง 2 pf ถึง 12 pf
 #include <Wire.h>
 #include "PT7C4339.h"
 
-PT7C4339 Best;
+PT7C4339  Best_rtc;
 
 void setup() {
   Serial.begin(9600);
-  Best.begin();
-  Best.clearAllAlarm();
-  Best.clearAlarmFlags();
-  Best.enableOscillator();
+  Best_rtc.begin();
+  Best_rtc.clearAllAlarm();
+  Best_rtc.clearAlarmFlags();
+  Best_rtc.enableOscillator();
   //วันศุกร์ ที่ 21 มีนาคม 2025 เวลา 14:10:10 ระบบเวลา 24 ชั่วโมง 
   Best_rtc.set24hrMode(Friday,21,March,2025,14,10,10);
   Best_rtc.defaultTrickleCharger(0x00);
 }
 
 void loop() {
-  Serial.println(Best.readDateTime());
+  Serial.println(Best_rtc.readDateTime());
   delay(1000);
 }
