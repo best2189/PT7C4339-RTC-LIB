@@ -14,7 +14,7 @@ Arduino library of PT7C4339 Real-Time Clock/calendar
 
 Arduino library for PT7C4339 I2C Real-Time Clock module with bilingual documentation (English/Thai).
 
-## คุณสมบัติ (Features)
+## ฟังก์ชั่นการใช้งานหลักๆ (Features)
 - สนับสนุนทั้งโหมด 12/24 ชั่วโมง (12/24 hour mode support)
 - การตั้งค่า Alarm 2 ช่อง (Dual alarm functionality)
 - อ่านค่าเวลาแบบเต็มรูปแบบ (Full date-time reading)
