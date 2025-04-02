@@ -218,7 +218,18 @@ setAlarm2_24_12(0, 0, 30, 0xC0, true, false);
 uint8_t PT7C4339::checkAlarm1Status()
 ```
 
-**คำอธิบาย**: ตรวจสอบสถานะ Alarm 1  
+**คำอธิบาย**: ตรวจสอบสถานะ Alarm1  
+**คืนค่า**: 1 = Alarm ทำงาน, 0 = ไม่ทำงาน
+
+---
+
+###  checkAlarm2Status()
+
+```cpp
+uint8_t PT7C4339::checkAlarm2Status()
+```
+
+**คำอธิบาย**: ตรวจสอบสถานะ Alarm2  
 **คืนค่า**: 1 = Alarm ทำงาน, 0 = ไม่ทำงาน
 
 ---
