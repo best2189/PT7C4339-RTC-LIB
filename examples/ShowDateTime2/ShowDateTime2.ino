@@ -3,7 +3,6 @@
 
 PT7C4339 Best_rtc;
 
-
 void PT7C4339Disp(void) 
 {
   static unsigned long Timer1 = millis();
