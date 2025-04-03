@@ -457,9 +457,6 @@ uint8_t checkOsfStatus();
 ## ตัวอย่างการใช้งาน
 
 ```cpp
-PT7C4339 rtc;
-rtc.begin();
-
 void displayTime() {
   Serial.print("เวลา: ");
   Serial.print(rtc.getHour());
